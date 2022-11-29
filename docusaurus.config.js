@@ -1,9 +1,6 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Globalisierung",
@@ -35,6 +32,7 @@ const config = {
         docs: {
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
+          breadcrumbs: false,
         },
         blog: false,
         theme: {
@@ -47,6 +45,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: "dark",
+      },
       navbar: {
         title: "Globalisierung",
         logo: {
@@ -55,15 +56,11 @@ const config = {
         },
         items: [
           {
-            href: "https://github.com/sndrnz",
+            href: "https://github.com/sndrnz/globalisierung",
             label: "GitHub",
             position: "right",
           },
         ],
-      },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
       },
     }),
 };

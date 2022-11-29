@@ -10,7 +10,7 @@ Die **08EINS** hat schon seit einiger Zeit auch einen Sitz in Deutschland welche
 
 Die **Impac Deutschland** ist hauptsächlich für die Entwicklung von **Mobilen Apps** zuständing, wohin die **08EINS** hingegen den Fokus auf **Webentwicklung** legt.
 
-![](/img/content/impac.png)
+<img src="/img/content/impac.jpg" />
 
 ## Indirekte Zusammenarbeit
 

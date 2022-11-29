@@ -3,7 +3,7 @@ sidebar_position: 1
 slug: /
 ---
 
-# Intro
+# Einleitung
 
 Das 08EINS Softwarehaus entwickelt Software für hauptsächlich Kunden in der Schweiz, hat jedoch auch einige internationale Zusammenhänge und Abhängigkeiten
 
